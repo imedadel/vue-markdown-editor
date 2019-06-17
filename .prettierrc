@@ -1,0 +1,8 @@
+{
+  "endOfLine": "lf",
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "useTabs": true,
+  "trailingComma": "es5"
+}
