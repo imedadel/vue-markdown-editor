@@ -2,7 +2,11 @@
 	<div id="app">
 		<!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
 		<!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
-		<textarea :value="input" @input="update" class="border-none border-r border-solid border-gray-400"></textarea>
+		<textarea
+			:value="input"
+			@input="update"
+			class="border-none border-r border-solid border-gray-400"
+		></textarea>
 		<div v-html="compiledMarkdown"></div>
 	</div>
 </template>
