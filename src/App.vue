@@ -2,7 +2,7 @@
 	<div id="app">
 		<!-- <img alt="Vue logo" src="./assets/logo.png" /> -->
 		<!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
-		<textarea :value="input" @input="update"></textarea>
+		<textarea :value="input" @input="update" class="border-none border-r border-solid border-gray-400"></textarea>
 		<div v-html="compiledMarkdown"></div>
 	</div>
 </template>
@@ -52,8 +52,6 @@ textarea,
 }
 
 textarea {
-	border: none;
-	border-right: 1px solid #ccc;
 	resize: none;
 	outline: none;
 	background-color: #f6f6f6;
